@@ -136,10 +136,10 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-gray-600 dark:text-gray-400">Email</p>
                     <a
-                      href="mailto:nandhakumar@example.com"
+                      href="mailto:nandhakumaredu.it@outlook.com"
                       className="text-lg font-medium text-gray-800 dark:text-gray-200 hover:text-primary-500 transition-colors"
                     >
-                      nandhakumar@example.com
+                      nandhakumaredu.it@outlook.com
                     </a>
                   </div>
                 </div>
@@ -168,12 +168,13 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-gray-600 dark:text-gray-400">LinkedIn</p>
                     <a
-                      href="https://linkedin.com/in/nandhakumar"
+                      href="www.linkedin.com/in/nandha-kumar-770356259"
+
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-lg font-medium text-gray-800 dark:text-gray-200 hover:text-primary-500 transition-colors"
                     >
-                      linkedin.com/in/nandhakumar
+                      linkedin.com/in/Nandhakumar
                     </a>
                   </div>
                 </div>
@@ -181,7 +182,7 @@ const Contact = () => {
             </div>
 
             <motion.a
-              href="/https://drive.google.com/file/d/1WjvrewYxqgjs7jVm4SIgumUOzPEMidQV/view?usp=sharing"
+              href="/Nandha Kumar Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
