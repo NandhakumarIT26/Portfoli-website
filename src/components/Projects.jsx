@@ -5,37 +5,41 @@ import { FiFolder } from 'react-icons/fi'
 const Projects = () => {
   const projects = [
     {
-      title: 'Grocery Accounts App',
-      description: 'A full-stack MERN application for managing grocery expenses and accounts. Features user authentication, expense tracking, and detailed analytics.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-      github: '#',
-      demo: '#',
-      color: 'from-blue-500 to-cyan-500',
+      title: 'UrbanPicks',
+      description: 'A curated affiliate product showcase platform where users can browse and discover trending lifestyle and utility products. The platform aggregates product details, organizes them into clean category-based collections, and redirects users to affiliate purchase links. Designed with a minimal UI to highlight product visuals and improve user discovery experience.',
+      tech: ['Flask', 'Python', 'HTML', 'CSS', 'Affiliate Marketing', 'Product Showcase UI'],
+      github: 'https://github.com/NandhakumarIT26/UrbanPicks',
+      demo: 'https://urbanpicks1.netlify.app/',
+      color: 'from-pink-500 to-rose-600',
     },
+    
     {
-      title: 'YouTube Summarizer App',
-      description: 'An intelligent application that uses Groq API to generate concise summaries of YouTube videos. Built with Node.js and modern web technologies.',
-      tech: ['Node.js', 'Groq API', 'Express', 'React'],
-      github: '#',
+      title: 'Intelligent Crop Rotation Decision Support System',
+      description: 'A data-driven agricultural DSS that recommends optimal crop rotation sequences by analyzing real-time soil characteristics, weather patterns, and market price trends. The system uses a hybrid AI architecture (Random Forest, Prophet, and LSTM) to predict crop suitability, yield, and price fluctuations. A rule-based reasoning layer ensures agronomic feasibility across Kharif, Rabi, and Zaid seasons, while an interactive web interface provides explainable visualizations using SHAP.',
+      tech: ['Python', 'Random Forest', 'Prophet', 'LSTM', 'Rule-Based AI', 'SHAP', 'HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/NandhakumarIT26/Farmers_DSS',
       demo: '#',
-      color: 'from-red-500 to-pink-500',
+      color: 'from-lime-500 to-green-600',
     },
+    
     {
-      title: 'Volume Control using Hand Gestures',
-      description: 'A Python application using OpenCV and MediaPipe to control system volume through hand gestures. Real-time gesture recognition and volume adjustment.',
-      tech: ['Python', 'OpenCV', 'MediaPipe', 'PyAutoGUI'],
-      github: '#',
-      demo: '#',
-      color: 'from-green-500 to-emerald-500',
+      title: 'Summify AI',
+      description: 'A Flask-based web application that summarizes long text using Groq LLM APIs.Designed for students, researchers, and content learners who want to understand long videos quickly.',
+      tech: ['Flask', 'Python', 'Groq API', 'HTML', 'CSS'],
+      github: 'https://github.com/NandhakumarIT26/summify_ai',
+      demo: 'https://summify-ai.onrender.com/',
+      color: 'from-blue-500 to-indigo-500',
     },
+
     {
-      title: 'AI Chatbot',
-      description: 'An intelligent chatbot built with Flask backend and OpenAI API integration. Features conversational AI, context awareness, and RESTful API design.',
-      tech: ['Flask', 'Python', 'OpenAI API', 'REST API'],
-      github: '#',
+      title: 'Multi-Agent System',
+      description: 'A coordinated multi-agent framework where multiple autonomous agents work together to solve tasks. Each agent operates independently with its own logic and decision-making capability, and the system manages communication and synchronization between them. Demonstrates concepts such as distributed task allocation, agent coordination, and cooperative problem-solving.',
+      tech: ['Python', 'Flask', 'Agent Coordination','Groq API', 'HTML', 'CSS'],
+      github: 'https://github.com/NandhakumarIT26/MultiAgentSystem',
       demo: '#',
-      color: 'from-purple-500 to-pink-500',
+      color: 'from-orange-500 to-amber-500',
     },
+    
   ]
 
   const containerVariants = {
