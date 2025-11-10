@@ -39,7 +39,7 @@ function App() {
         <Contact />
       </main>
       <footer className="bg-gray-800 dark:bg-gray-950 text-gray-300 py-6 text-center">
-        <p>&copy; 2024 Nandha Kumar. All rights reserved.</p>
+        <p>&copy; 2025 Nandha Kumar. All rights reserved.</p>
       </footer>
     </div>
   )
