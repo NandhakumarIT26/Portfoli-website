@@ -33,10 +33,10 @@ const Projects = () => {
 
     {
       title: 'Multi-Agent System',
-      description: 'A coordinated multi-agent framework where multiple autonomous agents work together to solve tasks. Each agent operates independently with its own logic and decision-making capability, and the system manages communication and synchronization between them. Demonstrates concepts such as distributed task allocation, agent coordination, and cooperative problem-solving.',
-      tech: ['Python', 'Flask', 'Agent Coordination','Groq API', 'HTML', 'CSS'],
+      description: 'Developed an AI-driven decision-support system that generates sustainable and region-specific crop residue utilization plans. The project integrates a Neo4j Knowledge Graph, dual-agent LLM reasoning, and a Flask-based web interface to minimize hallucinations and ensure fact-grounded planning. The system analyzes crop type, residue quantity, soil data, and regional constraints to recommend optimized allocations across composting, biochar, biogas, and animal feed pathways with transparent reasoning and visualized outputs.',
+      tech: ['Python', 'Flask', 'Agent Coordination','Gemini flash API', 'HTML', 'CSS'],
       github: 'https://github.com/NandhakumarIT26/MultiAgentSystem',
-      demo: '#',
+      demo: 'https://kg-llm-multiagent-system-rr2h.onrender.com/',
       color: 'from-orange-500 to-amber-500',
     },
     
@@ -122,15 +122,17 @@ const Projects = () => {
                     <FiGithub size={20} />
                     <span>Code</span>
                   </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
-                  >
-                    <FiExternalLink size={20} />
-                    <span>Live Demo</span>
-                  </a>
+                  {project.demo && project.demo !== '#' && project.demo.trim() !== '' && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
+                    >
+                      <FiExternalLink size={20} />
+                      <span>Live Demo</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
