@@ -76,7 +76,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">LinkedIn</p>
                   <a
-                    href="www.linkedin.com/in/nandha-kumar-770356259"
+                    href="https://www.linkedin.com/in/nandhakumarap/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg font-medium text-gray-800 dark:text-gray-200 hover:text-primary-500 transition-colors"
